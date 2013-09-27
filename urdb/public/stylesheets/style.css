@@ -1,0 +1,22 @@
+body{
+	background: #000;
+	color: #fff;
+	margin: none;
+
+}
+
+.top{
+	border-radius: 5px;
+	height: 50px;
+	width: 100%;
+	color: #000;
+	background: rgb(188,3,6); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(188,3,6,1) 0%, rgba(188,6,3,1) 44%, rgba(84,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(188,3,6,1)), color-stop(44%,rgba(188,6,3,1)), color-stop(100%,rgba(84,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(188,3,6,1) 0%,rgba(188,6,3,1) 44%,rgba(84,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(188,3,6,1) 0%,rgba(188,6,3,1) 44%,rgba(84,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(188,3,6,1) 0%,rgba(188,6,3,1) 44%,rgba(84,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(188,3,6,1) 0%,rgba(188,6,3,1) 44%,rgba(84,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0306', endColorstr='#540000',GradientType=0 ); /* IE6-9 */
+
+}

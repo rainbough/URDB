@@ -1,14 +1,18 @@
-<h1>URDB</h1>
+<html>
+	<head>
+		<%= stylesheet_link_tag "style.css" %>
+	</head>
+	<body>
+		<div class="top">
+			<h1>URDB</h1>
+		</div>
 
-<h2>Movies:</h2>
+			<h2>Movies:</h2>
 
-<ul>
-	<% @movies.each do |movie| %>
-	<li><%= link_to movie.title, movie_path(movie.id) %></li>
-	<% end %>
-	
-	
-
-</ul>
-<!-- 
-"/movies/#{movie.id}" -->
+			<ul>
+				<% @movies.each do |movie| %>
+				<li><%= link_to movie.title, movie_path(movie.id) %></li>
+				<% end %>
+			</ul>
+	</body>
+</html>
