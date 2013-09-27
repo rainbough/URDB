@@ -1,0 +1,9 @@
+	<!-- <li><%= link_to "movie2" , movie_path %></li>
+	<li><%= link_to "movie3" , movie_path %></li>
+	<li><%= link_to "movie4" , movie_path %></li>
+	<li><%= link_to "movie5" , movie_path %></li>
+	<li><%= link_to "movie6" , movie_path %></li>
+	<li><%= link_to "movie7" , movie_path %></li>
+	<li><%= link_to "movie8" , movie_path %></li>
+	<li><%= link_to "movie9" , movie_path %></li>
+	<li><%= link_to "movie10" , movie_path %></li> -->
