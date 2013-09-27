@@ -3,7 +3,10 @@
 <h2>Movies:</h2>
 
 <ul>
-	<li><%= link_to "movie1" , movie_path %></li>
+	<% @movies.each do |movie| %>
+	<li><%= link_to movie.title, "/movies/#{movie.id}" %></li>
+	<% end %>
+	
 	
 
 </ul>
