@@ -6,7 +6,8 @@ class MoviesController < ApplicationController
 
 
 	def show
-	  @title = params[:title]
+	  @movie = Movie.find_by_id(params[:id])
+	  @image = "http://media.giphy.com/media/5hzLCeSejUC52/giphy.gif"
 	end
 
 
