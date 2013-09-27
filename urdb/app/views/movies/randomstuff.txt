@@ -7,3 +7,9 @@
 	<li><%= link_to "movie8" , movie_path %></li>
 	<li><%= link_to "movie9" , movie_path %></li>
 	<li><%= link_to "movie10" , movie_path %></li> -->
+
+
+
+charlie and the chocolate factory:	http://giphy.com/gifs/ULpjK9V0e7Yf6/
+
+gif_src= "ULpjK9V0e7Yf6"
